@@ -69,8 +69,6 @@ h2 {
 h3 {
 	font-size: 18px;
 }
-
-h4, h5, h6 {
 	font-family: Arvo, Monaco, serif;
 	font-weight: 700;
 }
@@ -174,11 +172,6 @@ pre {
   overflow: auto;
   overflow-y: hidden;
 	margin-bottom: 32px;
-}
-
-code .c1 {
-    color: #999988;
-    font-style: italic;
 }
 
 /* Tables */
