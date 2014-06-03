@@ -262,7 +262,6 @@ header li {
 	list-style-type: none;
 	margin-bottom: 12px;
 	line-height: 1em;
-	padding: 6px 6px 6px 7px;
 }
 
 header li a {
@@ -270,9 +269,10 @@ header li a {
   height:15px;
   background: #2AA198;
   border-radius:4px;
+  padding: 6px 6px 6px 7px;
 }
 
-header li:hover {
+header li a:hover {
 	background: #268BD2;
 }
 
