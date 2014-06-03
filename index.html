@@ -23,8 +23,9 @@
         <p class="header"></p>
 
         <ul>
-          <li class="download"><a href="#variables">Variables</a></li>
-          <li class="download"><a href="#constants">Constants</a></li>
+          <li><a href="#variables">Variables</a></li>
+          <li><a href="#constants">Constants</a></li>
+          <li><a href="#printing">Printing</a></li>
         </ul>
 
         <p class="header">This project is maintained by <a class="header name" href="https://github.com/kpbp">kpbp</a></p>
@@ -34,22 +35,32 @@
       <section>
         <h1>Swift Cheat Sheet</h1>
 
-<p>A clean and clear cheat sheet and guide for Apple's Swift language</p>
+        <p>A clean and clear cheat sheet and guide for Apple's Swift language</p>
+
+        <h3 id="variables">Variables</h3>
+        <pre><code>var myString = "hello"
+        var myExplicitString: String = "hello" // explicit type
+        var x = 1, y = 2, z = 3 // declare multiple integers
+        myExplicitString = "goodbye" // set to another string value
+        </code></pre>
+
+        <h3 id="constants">Constants</h3>
+        <pre><code>let myString = "hello"
+        myString = "how are you" // compile-time error
+        </code></pre>
+
+        <h3 id="printing">Printing</h3>
+        <pre><code>let name = "swift"
+        println("Hello")
+        println("My name is \(name)")
+        print("See you "); 
+        print("later")
+        /*  Hello
+            My name is swift
+            See you later */
+        </code></pre>
 
 
-<h3 id="variables">Variables</h3>
-
-<pre><code>var myString = "hello"
-var myExplicitString: String = "hello" // explicit type
-var x = 1, y = 2, z = 3 // declare multiple integers
-myExplicitString = "goodbye" // set to another string value
-</code></pre>
-
-<h3 id="constants">Constants</h3>
-
-<pre><code>let myString = "hello"
-myString = "how are you" // compile-time error
-</code></pre>
 
       </section>
       <footer>
