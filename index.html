@@ -25,7 +25,11 @@
         <ul>
           <li><a href="#variables">Variables</a></li>
           <li><a href="#constants">Constants</a></li>
+          <li><a href="#strings">Strings</a></li>
+          <li><a href="#logical">Logical Operators</a></li>
           <li><a href="#printing">Printing</a></li>
+          <li><a href="#arrays">Arrays</a></li>
+          <li><a href="#dictionarys">Dictionarys</a></li>          
         </ul>
 
         <p class="header">This project is maintained by <a class="header name" href="https://github.com/kpbp">kpbp</a></p>
@@ -38,15 +42,33 @@
 <p>A clean and clear cheat sheet and guide for Apple's Swift language</p>
 
 <h3 id="variables">Variables</h3>
-<pre><code>var myString = "hello"
-var myExplicitString: String = "hello" // explicit type
+<pre><code>var myInt = 1
+var myExplicitInt: Int = 1 // explicit type
 var x = 1, y = 2, z = 3 // declare multiple integers
-myExplicitString = "goodbye" // set to another string value
+myExplicitInt = 2 // set to another integer value
 </code></pre>
 
 <h3 id="constants">Constants</h3>
-<pre><code>let myString = "hello"
-myString = "how are you" // compile-time error
+<pre><code>let myInt = 1
+myInt = 2 // compile-time error!
+</code></pre>
+
+<h3 id="strings">Strings</h3>
+<pre><code>var myString = "a"
+let myImmutableString = "c"
+myString += "b" // ab
+myString = myString + myImmutableString // abc
+myImmutableString += "d" // compile-time error!
+
+let count = 7
+let message = "There are \(count) days in the week" // There are 7 days in the week
+</code></pre>
+
+<h3 id="logical">Logical Operators</h3>
+<pre><code>let happy = true
+let sad = !happy // logical NOT, sad = false
+let everyoneHappy = happy && sad // logical AND, everyoneHappy = false
+let someoneHappy = happy || sad // logical OR, someoneHappy = true
 </code></pre>
 
 <h3 id="printing">Printing</h3>
@@ -58,6 +80,14 @@ print("later")
 /*  Hello
     My name is swift
     See you later */
+</code></pre>
+
+<h3 id="arrays">Arrays</h3>
+<pre><code>
+</code></pre>
+
+<h3 id="dictionarys">Dictionarys</h3>
+<pre><code>
 </code></pre>
 
       </section>
