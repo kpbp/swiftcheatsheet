@@ -172,7 +172,37 @@ for (shortDay, longDay) in days {
 </code></pre>
 
 <h3 id="whileloops">While Loops</h3>
-<pre><code>
+<pre><code>var count = 1
+while count < 3 {
+    println("count is \(count)")
+    ++count
+}
+// count is 1
+// count is 2
+
+count = 1
+while count < 1 {
+    println("count is \(count)")
+    ++count
+}
+//
+
+
+count = 1
+do {
+    println("count is \(count)")
+    ++count
+} while count < 3
+// count is 1
+// count is 2
+
+count = 1
+do {
+    println("count is \(count)")
+    ++count
+} while count < 1
+// count is 1
+
 </code></pre>
 
       </section>
