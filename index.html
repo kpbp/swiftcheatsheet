@@ -107,21 +107,23 @@ moreDays.removeValueForKey("fri") // remove fri from the dictionary
 </code></pre>
 
 <h3 id="controlflow">Control Flow</h3>
-<pre><code>
-for var index = 1; index < 3; ++index { // loops with index taking values 1,2 
+<pre><code>for var index = 1; index < 3; ++index {
+	// loops with index taking values 1,2 
 }
-for index in 1..3 { // loops with index taking values 1,2
+for index in 1..3 {
+	// loops with index taking values 1,2
 }
-for index in 1...3 { // loops with index taking values 1,2,3
+for index in 1...3 { 
+	// loops with index taking values 1,2,3
 }
 
 let colors = ["red", "blue", "yellow"]
 for color in colors {
     println("Color: \(color)")
 }
-/*  Color: red
-    Color: blue
-    Color: yellow */
+// Color: red
+// Color: blue
+// Color: yellow 
 
 let days = ["mon": "monday", "tue": "tuesday"]
 for (shortDay, longDay) in days {
