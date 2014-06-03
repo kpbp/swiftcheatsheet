@@ -30,7 +30,8 @@
           <li><a href="#logical">Logical Operators</a></li>
           <li><a href="#printing">Printing</a></li>
           <li><a href="#arrays">Arrays</a></li>
-          <li><a href="#dictionaries">Dictionaries</a></li>          
+          <li><a href="#dictionaries">Dictionaries</a></li>
+          <li><a href="#controlflow">Control Flow</a></li>          
         </ul>
       </header>
       <section>
@@ -105,6 +106,29 @@ moreDays["thu"] = nil // remove thu from the dictionary
 moreDays.removeValueForKey("fri") // remove fri from the dictionary
 </code></pre>
 
+<h3 id="controlflow">Control Flow</h3>
+<pre><code>
+for var index = 1; index < 3; ++index { // loops with index taking values 1,2 
+}
+for index in 1..3 { // loops with index taking values 1,2
+}
+for index in 1...3 { // loops with index taking values 1,2,3
+}
+
+let colors = ["red", "blue", "yellow"]
+for color in colors {
+    println("Color: \(color)")
+}
+/*  Color: red
+    Color: blue
+    Color: yellow */
+
+let days = ["mon": "monday", "tue": "tuesday"]
+for (shortDay, longDay) in days {
+    println("\(shortDay) is short for \(longDay)")
+}
+/*  mon is short for monday
+    tue is short for tuesday */
       </section>
       <footer>
       </footer>
