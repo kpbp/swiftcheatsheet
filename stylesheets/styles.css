@@ -270,6 +270,7 @@ header li a {
   background: #2AA198;
   border-radius:4px;
   padding: 6px 6px 6px 7px;
+  display: inline-block;
 }
 
 header li a:hover {
