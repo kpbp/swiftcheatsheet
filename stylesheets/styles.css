@@ -176,6 +176,10 @@ pre {
 	margin-bottom: 32px;
 }
 
+code .c1 {
+    color: #999988;
+    font-style: italic;
+}
 
 /* Tables */
 
