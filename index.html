@@ -31,7 +31,9 @@
           <li><a href="#printing">Printing</a></li>
           <li><a href="#arrays">Arrays</a></li>
           <li><a href="#dictionaries">Dictionaries</a></li>
-          <li><a href="#controlflow">Control Flow</a></li>          
+          <li><a href="#conditionals">Conditionals</a></li>
+          <li><a href="#forloops">For Loops</a></li>
+          <li><a href="#whileloops">While Loops</a></li>        
         </ul>
       </header>
       <section>
@@ -106,7 +108,42 @@ moreDays["thu"] = nil // remove thu from the dictionary
 moreDays.removeValueForKey("fri") // remove fri from the dictionary
 </code></pre>
 
-<h3 id="controlflow">Control Flow</h3>
+<h3 id="conditionals">Conditionals</h3>
+<pre><code>//IF STATEMENT
+
+let happy = true
+if happy {
+} else {
+}
+
+let speed = 28
+if speed <= 0 {
+    println("Stationary")
+} else if speed <= 30 {
+    println("Safe speed")
+} else {
+    println("Too fast!")
+}
+// Safe speed
+
+
+//SWITCH STATEMENT
+let n = 2
+
+switch n {
+case 1:
+    println("It's 1!")
+case 2...4:
+    println("It's between 2 and 4!")
+case 5, 6:
+    println("It's 5 or 6")
+default:
+    println("Its another number!")
+}
+// It's between 2 and 4!
+</code></pre>
+
+<h3 id="forloops">For Loops</h3>
 <pre><code>for var index = 1; index < 3; ++index {
 	// loops with index taking values 1,2 
 }
@@ -131,6 +168,12 @@ for (shortDay, longDay) in days {
 }
 // mon is short for monday
 // tue is short for tuesday
+</code></pre>
+
+<h3 id="whileloops">While Loops</h3>
+<pre><code>
+</code></pre>
+
       </section>
       <footer>
       </footer>
