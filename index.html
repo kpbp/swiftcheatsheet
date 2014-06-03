@@ -79,13 +79,31 @@ print("later")
 </code></pre>
 
 <h3 id="arrays">Arrays</h3>
-<pre><code>
+<pre><code> var colors = ["red", "blue"]
+var moreColors: String[] = ["orange, "purple"] // explicit type
+colors.append("green") // [red, blue, green]
+colors += "yellow" // [red, blue, green, yellow]
+colors += moreColors // [red, blue, green, yellow, orange, purple]
+
+var days = ["mon", "thu"]
+var firstDay = days[0] // mon
+days.insert("tue", atIndex: 1) // [mon, tue, thu]
+days[2] = "wed" // [mon, tue, wed]
+days.removeAtIndex(0) // [tue, wed]
 </code></pre>
 
 <h3 id="dictionarys">Dictionarys</h3>
-<pre><code>
+<pre><code> var days = ["mon": "monday", "tue": "tuseday"]
+days["tue"] = "tuesday" // change the value for key "tue"
+days["wed"] = "wednesday" // add a new key/value pair
+
+var moreDays: Dictionary<String, String> = ["thu": "thursday", "fri": "friday"]]
+moreDays["thu"] = nil // remove thu from the dictionary
+moreDays.removeValueForKey("fri") // remove fri from the dictionary
 </code></pre>
 
+
+More to come...
       </section>
       <footer>
       </footer>
