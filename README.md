@@ -1,4 +1,4 @@
-swiftcheatsheet
+Swift Cheat Sheet
 ===============
 
 A quick cheat sheet and reference guide for Apple's Swift language. This guide intends to cover all the key features of Swift, including Strings, Arrays, Dictionaries and Flow Control.
