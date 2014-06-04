@@ -5,20 +5,20 @@ A quick cheat sheet and reference guide for Apple's Swift language. This guide i
 
 Swift is a new programming language for developing iOS and OS X apps that was introduced by Apple in June 2014.
 
-# Variables
+##Variables
 ```js
 var myExplicitInt: Int = 1 // explicit type
 var x = 1, y = 2, z = 3 // declare multiple integers
 myExplicitInt = 2 // set to another integer value
 ```
 
-# Constants
+##Constants
 ```js
 let myInt = 1
 myInt = 2 // compile-time error!
 ```
 
-# Strings
+##Strings
 ```js
 var myString = "a"
 let myImmutableString = "c"
