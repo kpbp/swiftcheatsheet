@@ -35,9 +35,8 @@
           <li><a href="#forloops">For Loops</a></li>
           <li><a href="#whileloops">While Loops</a></li>
           <li><a href="#functions">Functions</a></li>
-          <li><a href="#closures">Closures</a></li>
           <li><a href="#classes">Classes</a></li>
-
+          <li><a href="#closures">Closures</a></li>
         </ul>
       </header>
       <section>
@@ -208,17 +207,41 @@ do {
 // count is 1
 </code></pre>
 
-<h3 id="functions">Functions</h3>
+<h3 id="functions">Functions</h3>func iAdd(a: Int, b: Int) -> Int {
+  return a + b
+}
+iAdd(2, 3) // returns 5
+
+func eitherSide(n: Int) -> (nMinusOne: Int, nPlusOne: Int) {
+  return (n-1, n+1)
+}
+eitherSide(5) // returns the tuple (4,6)
 <pre><code>
+</code></pre>
+
+<h3 id="classes">Classes</h3>
+<pre><code>class Counter {
+  var count: Int = 0 
+  func inc() { 
+    count++
+  }
+  func add(n: Int) {
+    count += n
+  }
+  func printCount() {
+    println("Count: \(count)")
+  }
+}
+
+var myCount = Counter()
+myCount.inc()
+myCount.add(2)
+myCount.printCount() // Count: 3
 </code></pre>
 
 <h3 id="closures">Closures</h3>
 <pre><code>
 </code></pre>
-
-<h3 id="classes">Classes</h3>
-<pre><code>
-</code></pre
 
 
 
