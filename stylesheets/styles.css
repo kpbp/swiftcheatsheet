@@ -253,6 +253,9 @@ a.name {
 	white-space: nowrap;
 }
 
+header h3 {
+  margin-top:0px;
+}
 header ul {
   list-style:none;
   padding:0;
@@ -260,7 +263,7 @@ header ul {
 
 header li {
 	list-style-type: none;
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 	line-height: 1em;
 }
 
